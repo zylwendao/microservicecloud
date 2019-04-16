@@ -16,7 +16,7 @@ import java.util.List;
  * @date 2018年4月21日
  */
 //@FeignClient(value = "MICROSERVICECLOUD-DEPT")
-//@FeignClient(value = "MICROSERVICECLOUD-DEPT",fallbackFactory=DeptClientServiceFallbackFactory.class)
+//@FeignClient(value = "MICROSERVICECLOUD-DEPT",fallbac kFactory=DeptClientServiceFallbackFactory.class)
 public interface DeptClientService
 {
 	@RequestMapping(value = "/dept/get/{id}", method = RequestMethod.GET)
