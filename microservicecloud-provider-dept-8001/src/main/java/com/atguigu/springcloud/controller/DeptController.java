@@ -25,6 +25,9 @@ public class DeptController
 	@RequestMapping(value = "/dept/get/{id}", method = RequestMethod.GET)
 	public Dept get(@PathVariable("id") Long id)
 	{
+		if (id == 1 || service.get(id) == null) {
+			throw new RuntimeException();
+		}
 		return service.get(id);
 	}
 

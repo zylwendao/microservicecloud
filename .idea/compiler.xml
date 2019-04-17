@@ -12,7 +12,9 @@
         <module name="microservicecloud-provider-dept-8003" />
         <module name="microservicecloud-consumer-dept-80" />
         <module name="microservicecloud-provider-dept-8001" />
+        <module name="microservicecloud-consumer-dept-feign" />
         <module name="microservicecloud-provider-dept-8002" />
+        <module name="microservicecloud-provider-dept-hystrix-8001" />
         <module name="microservicecloud-api" />
       </profile>
     </annotationProcessing>
