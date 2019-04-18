@@ -1,0 +1,17 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: microservicecloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/zylwendao/microservicecloud-config.git #GitHub上面的git仓库名字
+#          uri: https://zylwendao@github.com/zylwendao/microservicecloud-config.git #GitHub上面的git仓库名字
+#          username: zylwendao
+#          password: adgadgadG1
+#      label: master
+
+#测试url : http://127.0.0.1:3344/application-dev.yml

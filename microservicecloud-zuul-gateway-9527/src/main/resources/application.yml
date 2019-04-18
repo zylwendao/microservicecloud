@@ -27,3 +27,5 @@ info:
   company.name: www.atguigu.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
+
+
