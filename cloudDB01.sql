@@ -1,13 +1,16 @@
 /*
- Navicat Premium Data Transfer....
+ Navicat Premium Data Transfer
+
  Source Server         : dockerMysql
  Source Server Type    : MySQL
  Source Server Version : 80015
  Source Host           : localhost:3306
  Source Schema         : cloudDB01
+
  Target Server Type    : MySQL
  Target Server Version : 80015
  File Encoding         : 65001
+
  Date: 17/04/2019 00:20:41
 */
 
