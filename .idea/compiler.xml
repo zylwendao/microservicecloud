@@ -13,6 +13,7 @@
         <module name="microservicecloud-eureka-7001" />
         <module name="microservicecloud-config-dept-client-8001" />
         <module name="microservicecloud-zuul-gateway-9527" />
+        <module name="microservicecloud-config-eureka-client-7001" />
         <module name="microservicecloud-provider-dept-hystrix-8001" />
         <module name="microservicecloud-api" />
         <module name="microservicecloud-provider-dept-8003" />
@@ -24,7 +25,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="microservicecloud-config-dept-client-8001" target="1.8" />
       <module name="microservicecloudconfigdeptclient8001" target="1.8" />
     </bytecodeTargetLevel>
   </component>

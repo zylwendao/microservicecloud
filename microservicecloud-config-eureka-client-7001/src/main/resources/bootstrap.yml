@@ -1,0 +1,23 @@
+spring:
+  cloud:
+    config:
+      name: microservicecloud-config-eureka-client     #需要从github上读取的资源名称，注意没有yml后缀名
+      profile: dev
+      label: master
+      uri: http://config-3344.com:3344      #SpringCloudConfig获取的服务地址
+#server:
+#  port: 7001  #注册中心占用7001端口,冒号后面必须要有空格
+#
+#spring:
+##  profiles: dev
+#  application:
+#    name: microservicecloud-config-eureka-client
+#
+#eureka:
+#  instance:
+#    hostname: eureka7001.com  #冒号后面必须要有空格
+#  client:
+#    register-with-eureka: false   #当前的eureka-server自己不注册进服务列表中
+#    fetch-registry: false   #不通过eureka获取注册信息
+#    service-url:
+#      defaultZone: http://eureka7001.com:7001/eureka/

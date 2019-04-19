@@ -7,7 +7,7 @@
     <packaging>pom</packaging>
     <groupId>com.atguigu.springcloud</groupId>
     <artifactId>microservicecloud</artifactId>
-    <version>1.0-SNAPSHOT</version>
+        <version>1.0-SNAPSHOT</version>
     <modules>
         <module>microservicecloud-api</module>
         <module>microservicecloud-provider-dept-8001</module>
@@ -24,9 +24,8 @@
         <module>microservicecloud-config-3344</module>
         <module>microservicecloud-config-client-3355</module>
         <module>microservicecloud-config-dept-client-8001</module>
-        <module>microservicecloud-config-dept-client-8001</module>
-        <module>microservicecloud-config-dept-client-8001</module>
-        <module>microservicecloud-config-dept-client-8001</module>
+        <module>microservicecloud-config-eureka-client-7001</module>
+
 
     </modules>
 
@@ -120,7 +119,7 @@
                 <artifactId>maven-resources-plugin</artifactId>
                 <configuration>
                     <delimiters>
-                        <delimit>@</delimit>
+                        <delimit>$</delimit>
                     </delimiters>
                 </configuration>
             </plugin>
